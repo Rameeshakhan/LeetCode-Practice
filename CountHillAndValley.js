@@ -29,7 +29,7 @@ var countHillValley = function(nums) {
     return count;
 };
 
-// New Approach
+// Another Method
 var countHillValley = function(nums) {
        let res = 0;
     for (let i = 1, j = 0; i < nums.length - 1; ++i) {
