@@ -1,4 +1,5 @@
 var lengthOfLongestSubstring = function(s) {
+
     let charIndexMap = {};
     let maxLength = 0;
     let startIndex = 0;
